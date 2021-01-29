@@ -135,3 +135,52 @@ Khác nhau: Khi gặp lỗi trong quá trình thưc hiện ông require đưa ra
 <h4> Mảng associative</h4>
 Ta dùng vòng lặp  "foreach" để duyệt mảng<br>
 <b>foreach( $nameArry  as $key => $v)</b>
+
+
+
+
+
+
+<Br>
+<Br>
+<Br>
+<Br>
+--------------------------------------------------------------------------------------------------
+<br>
+<br>
+<br>
+<h1>Buổi 3 ngày 27-1-2021 </h1>
+<br>
+<br>
+<br>
+Hôm nay học được:<br>
++ Access modifier là các từ khoá được sử dụng để quy định mức độ truy cập đến lớp và các thành phần của lớp
+
+Các mức truy cập:
+
++ public: có thể truy cập từ bất cứ đâu<br>
++ private: các phương thức và thuộc tính chỉ được phép truy xuất trong cùng một lớp<br>
++ protected: các phương thức và thuộc tính được phép truy xuất trong cùng một lớp và ở các lớp con (kế thừa) <br>
+<br>
++     __construct() vs __destruct()
+
+Để can thiệp vào quá trình khởi tạo đối tượng, chúng ta sử dụng hàm __construct() <br>
+
+
+Để can thiệp vào quá trình huỷ đối tượng, chúng ta sử dụng hàm __destruct()<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+---------------------------------------------------------------
+<br>
+<br>
+<br>
+<h1>Buổi 4 ngày 28-1-2021</h1>
+Hôm nay học được: <br>
+<br>
++ Namespace (tên miền không gian) là một hình thức để đóng gói các hạng mục có liên quan lại với nhau<br> <br>
++ Trong PHP, namespace được thiết kế để giải quyết 2 vấn đề mà các tách giả của các thư viện và ứng dụng thường gặp phải khi cố gắng tạo ra các đối tượng hoặc hàm có thể tái sử dụng được<br> <br>
++ Các tên gọi bị trùng nhau giữa những lớp/hàm được tạo ra, so với các lớp/hàm có sẵn của PHP, hoặc các lớp/hàm do một người khác viết<br> <br>
+

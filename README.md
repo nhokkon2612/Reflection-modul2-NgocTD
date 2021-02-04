@@ -62,6 +62,77 @@ MỤC TIÊU PHẢI ĐẠT ĐƯỢC :<br>
 
 
 
+<h1>lesson 6   ngày 1-2-2021</h1>
+<br>
+
+Hôm nay học được : <br>
+<b> Abstract Class</b> <br>
++ Nó là một class có tính trừu tượng rất cao đến mức không thể tạo được các đối tượng ở lớp đó thì gọi là abstract class.<br>
++ Bắt buộc phải chứa abstract method và có thể có method thông thường.<br>
++ abstract method là method chỉ có khai báo (tên và tham số đầu vào).<br>
++ Mức truy cập các abstract method phải ở public hoặc protected để lớp kế thừa có thể định nghĩa lại.<br>
++ Không dùng từ khóa final cho khai báo abstract class và abstract method.<br>
+ <br>
+ <br>
+ <b>interface.</b><br>
++Có thể hiểu đây là một dạng bảng thiết kế cho -"method"- mà bất kỳ Class nào cũng có thể có. Một interface chứa các hành vi mà một class triển khai. <br>
++Interface không phải là một lớp đối tượng .<br>
++Tất cả các hàm trong interface đều ở dạng khai báo và không được định nghĩa (giống lớp abstract).<br>
++Interface không thể khởi tạo.<br>
+  <br>
+  <br>
+Khi nào sử dụng  <b>Abstract class</b> và khi nào sử dụng <b>interface</b>:
+  <Br>
+    - Abstract thường được sử dụng trong trường hợp class kế thừa từ nó cùng bản chất<br>
+      <br>
+  - Interface thường được sử dụng trong trường hợp các kế thừa không có cùng bản chất như nhau nhưng có "phương thức giống nhau  ---  VD: object chim không cùng class với object tên lửa , không có bản chất nào chung nhưng nó có chung method bay, lúc này sẽ sử dụng interface .
+
+
+<br>
+<br>
+<br>
+<br>
+
+--------------------------------------------------------------------------------------------------
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<h1>lesson 5   ngày 29-1-2021</h1>
+<br>
+<br>
+<br>
+Hôm nay học được : <br>
+<br>
++ Vòng đời của một đối tượng :<br>
+ Khởi tạo đối tượng: __construct() --> sử dụng đối tương --> Hủy đối tương __destruct()<br>
++ Các dạng kế thừa : <BR>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; single inheritance (đơn kế thừa): Lớp con chỉ kế thừa từ 1 lớp cha <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; multiple inheritance (đa kế thưa): Lớp con kế thừa từ nhiều lớp cha <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; multilevel inheritance (kế thừa đa tầng): Lớp con kế thừa lớp cha , lớp cha kế thừa lớp ông (có thể có nhiều tầng kế thừa hơn).
+
+
+
+Cú pháp: <br>
+
++ class SubClass extends SuperClass{}; trong đó: - từ khóa extends được sử dụng để kế thừa 1 lớp. - SubClass là tên lớp con. - SuperClass là tên lớp cha.<br>
++ Ghi đè phương thức(Method overriding) cho phép lớp con định nghĩa lại phương thức đã định nghĩa trước đó của lớp cha.<br>
+
++ Từ khóa parent sử dụng trong một lớp con truy xuất các thuộc tính và phương thức của lớp cha.<br>
+
++ Từ khóa Final hạn chế tối đa việc ghi đè, ngăn chặn kế thừa từ một lớp v>à việc ghi đè phương thức<br>
+
+<br>
+<br>
+<br>
 
 
 
@@ -72,29 +143,13 @@ MỤC TIÊU PHẢI ĐẠT ĐƯỢC :<br>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-------------------------------------------------------------------------------------------
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 <h1>Buổi 1 ngày 25-1-2021</h1>
